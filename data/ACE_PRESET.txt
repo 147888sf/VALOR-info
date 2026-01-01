@@ -171,6 +171,9 @@ ace_fire_enableScreams = true;
 ace_respawn_removeDeadBodiesDisconnected = true;
 ace_respawn_savePreDeathGear = false;
 
+// ACE Р“Р°СЂРґРµСЂРѕР±
+ace_wardrobe_enableAction = true;
+
 // ACE Р“РёР»СЊР·С‹
 ace_casings_enabled = true;
 force ace_casings_maxCasings = 200;
@@ -327,6 +330,7 @@ ace_cargo_enableRename = true;
 ace_cargo_loadTimeCoefficient = 5;
 ace_cargo_openAfterUnload = 0;
 ace_cargo_paradropTimeCoefficent = 2.5;
+ace_cargo_unloadOnKilled = 0.5;
 ace_rearm_distance = 20;
 ace_rearm_enabled = true;
 ace_rearm_level = 0;
@@ -342,7 +346,7 @@ ace_towing_addRopeToVehicleInventory = true;
 ace_medical_ai_enabledFor = 2;
 ace_medical_ai_requireItems = 0;
 force ace_medical_AIDamageThreshold = 0.25;
-ace_medical_alternateArmorPenetration = true;
+force ace_medical_alternateArmorPenetration = false;
 force ace_medical_bleedingCoefficient = 1.21959;
 force ace_medical_blood_bloodLifetime = 300;
 ace_medical_blood_enabledFor = 2;
@@ -369,6 +373,7 @@ ace_medical_statemachine_fatalInjuriesAI = 0;
 ace_medical_statemachine_fatalInjuriesPlayer = 0;
 force ace_medical_useLimbDamage = 2;
 ace_medical_vitals_simulateSpO2 = true;
+ace_medical_windowOnWakeUp = 1;
 
 // ACE РњРµРґРёС†РёРЅР° РРЅС‚РµСЂС„РµР№СЃ
 ace_medical_feedback_bloodVolumeEffectType = 0;
@@ -742,6 +747,7 @@ ace_advanced_throwing_enablePickUpAttached = true;
 force ace_advanced_throwing_enableTempWindInfo = false;
 ace_advanced_throwing_showMouseControls = true;
 force ace_advanced_throwing_showThrowArc = false;
+ace_advanced_throwing_throwStepSetting = 8;
 
 // ACE Р¤РѕСЂС‚РёС„РёРєР°С†РёСЏ
 ace_fortify_markObjectsOnMap = 1;
